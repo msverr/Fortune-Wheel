@@ -22,6 +22,5 @@ Use npm start to run the project locally.
 
 Feel free to explore the code and customize the wheel!
 
-https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
 <img width="610" alt="Знімок екрана 2024-10-08 о 1 22 24 пп" src="https://github.com/user-attachments/assets/8d855b59-96b7-4891-bd31-d65803949094">
