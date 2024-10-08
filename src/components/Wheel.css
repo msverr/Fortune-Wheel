@@ -1,0 +1,173 @@
+.custom-modal {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  transform: translate(-50%, -50%);
+  background: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  outline: none;
+  width: 80%;
+  max-width: 400px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  text-align: center;
+}
+
+.custom-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.modal-content {
+  font-size: 1.2rem;
+  margin-bottom: 20px;
+}
+
+@media (max-width: 420px) {
+  .wheel-container {
+    width: 200px !important;
+    height: 200px !important;
+  }
+
+  button {
+    width: 40px;
+    height: 15px;
+    font-size: x-small;
+  }
+
+  .custom-modal {
+    padding: 10px;
+    width: 90%;
+    max-width: 300px;
+  }
+
+  .modal-title {
+    font-size: 1.2rem;
+  }
+
+  .modal-content {
+    font-size: 1rem;
+  }
+}
+
+@media (min-width: 421px) and (max-width: 780px) {
+  .wheel-container {
+    width: 250px !important;
+    height: 250px !important;
+  }
+
+  button {
+    width: 50px;
+    height: 20px;
+    font-size: small;
+  }
+
+  .custom-modal {
+    padding: 15px;
+    width: 85%;
+    max-width: 350px;
+  }
+
+  .modal-title {
+    font-size: 1.3rem;
+  }
+
+  .modal-content {
+    font-size: 1.1rem;
+  }
+}
+
+@media (min-width: 781px) and (max-width: 1024px) {
+  .wheel-container {
+    width: 300px !important;
+    height: 300px !important;
+  }
+
+  button {
+    width: 70px;
+    height: 30px;
+    font-size: large;
+  }
+
+  .custom-modal {
+    padding: 20px;
+    width: 80%;
+    max-width: 400px;
+  }
+
+  .modal-title {
+    font-size: 1.4rem;
+  }
+
+  .modal-content {
+    font-size: 1.15rem;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1440px) {
+  .wheel-container {
+    width: 350px !important;
+    height: 350px !important;
+  }
+
+  button {
+    width: 90px;
+    height: 40px;
+    font-size: x-large;
+  }
+
+  .custom-modal {
+    padding: 25px;
+    width: 75%;
+    max-width: 450px;
+  }
+
+  .modal-title {
+    font-size: 1.6rem;
+  }
+
+  .modal-content {
+    font-size: 1.3rem;
+  }
+}
+
+@media (min-width: 1441px) {
+  .wheel-container {
+    width: 400px !important;
+    height: 400px !important;
+  }
+
+  button {
+    width: 100px;
+    height: 50px;
+    font-size: x-large;
+  }
+
+  .custom-modal {
+    padding: 30px;
+    width: 70%;
+    max-width: 500px;
+  }
+
+  .modal-title {
+    font-size: 1.8rem;
+  }
+
+  .modal-content {
+    font-size: 1.4rem;
+  }
+}
